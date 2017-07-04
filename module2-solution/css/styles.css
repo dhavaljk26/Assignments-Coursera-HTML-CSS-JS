@@ -1,0 +1,141 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body{
+	background-color: #f9e0d9;
+}
+
+h1{
+	font-family: 'Times New Roman',  serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 175%;
+	color : #d19d0a;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.row{
+	width: 100%;
+}
+
+.add-margin{
+	position: relative;
+	border: 1px solid black;
+	margin-bottom: 40px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #b3e0d5;
+}
+
+.title{
+	position: absolute;
+	right: 0;
+	border: 1px solid black;
+	font-size: 125%;
+	padding: 5px 10px 5px 10px;
+	font-weight: bold;
+	font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+p{
+	/*border: 1px solid black;*/
+	padding: 40px 10px 10px 10px;
+	text-align: justify;
+	color: #ba552e;
+	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma,  sans-serif;
+}
+
+#title-1{
+	background-color: #ffe500;
+}
+
+#title-2{
+	background-color: #ef02df;
+}
+
+#title-3{
+	background-color: #0aed02;
+}
+
+@media (min-width: 992px) {
+	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4,.col-lg-6, .col-lg-12 {
+		float: left;
+	} 
+	.col-lg-1 {
+		width: 8.33%;
+	}
+	.col-lg-2 {
+		width: 16.66%;
+	}
+	.col-lg-3 {
+		width: 25%;
+	}
+	.col-lg-4 {
+		width: 33.33%;
+	}
+	.col-lg-6 {
+		width: 50%;
+	}
+	.col-lg-12 {
+		width: 100%;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-1, .col-md-2, .col-md-3, .col-md-4,.col-md-6, .col-md-12 {
+		float: left;
+	} 
+	.col-md-1 {
+		width: 8.33%;
+	}
+	.col-md-2 {
+		width: 16.66%;
+	}
+	.col-md-3 {
+		width: 25%;
+	}
+	.col-md-4 {
+		width: 33.33%;
+	}
+	.col-md-6 {
+		width: 50%;
+	}
+	.col-md-12 {
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 767px) {
+	.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4,.col-sm-6, .col-sm-12 {
+		float: left;
+	} 
+	.col-sm-1 {
+		width: 8.33%;
+	}
+	.col-sm-2 {
+		width: 16.66%;
+	}
+	.col-sm-3 {
+		width: 25%;
+	}
+	.col-sm-4 {
+		width: 33.33%;
+	}
+	.col-sm-6 {
+		width: 50%;
+	}
+	.col-sm-12 {
+		width: 100%;
+	}
+
+}
+
+
+/*background-color: #d7cec7;
+	color: #4f151f;*/
